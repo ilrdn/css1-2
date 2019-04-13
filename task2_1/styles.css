@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.rounds {
+	position: absolute;
+}
+
+.round {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	transform: translateY(-50%);
+	margin-right: 40px;
+	border-radius: 20px;
+	background: #b3d334;
+	color: #fff;
+	text-align: center;
+	line-height: 38px;
+}
+
+.round:nth-child(4) {
+	background: #ab4a9d;
+}
+
+.round:last-child {
+    margin-right: 0;
+	background: #cbcbcb;
+	color: #000;
+}
+
+.line {
+	margin: 100px;
+	position: relative;
+	width: 376px;
+	height: 4px;
+	background: #cbcbcb;
+}
+

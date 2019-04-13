@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+.image {
+    background: url("http://www.nightskyinfo.com/cms/img/wallpaper-img/img/horsehead_800x600.jpg");
+    height: 380px;
+    width: 600px;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .line {
+    margin: 16px;
+    position: absolute;
+    left: 220px;
+    bottom: 0;
+  }
+  
+  .block {
+    margin: 3px;
+    display: inline-block;
+    background-color: black;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .block:hover {
+    background-color: #CC0407;
+    box-shadow: 0 0 6px 3px white;
+  }
+  
+

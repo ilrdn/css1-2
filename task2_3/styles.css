@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+} 
+.round {
+    background: #EAF3E4;
+	border: 23px solid #95CD8B;
+	border-radius: 50%;
+	border-right: 23px solid #D0E6BB;
+	font-size: 35px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	width: 100px;
+}
